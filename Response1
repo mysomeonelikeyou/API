@@ -1,5 +1,4 @@
- 1/30/2018 https://data.cityofnewyork.us/resource/fhrw-4uyv.json?complaint_type=Noise&borough=MANHATTAN&community_board=10 MANHATTAN&$select=res...
- [{"resolution_description":"The Department of Environmental Protection did not observe a
+[{"resolution_description":"The Department of Environmental Protection did not observe a
 violation of the New York City Air/Noise Code at the time of inspection and could not issue a
 notice of violation. If the problem still exists, please call 311 and file a new complaint.
 If you are outside of New York City, please call (212) NEW-YORK (212-639-9675)."}
@@ -2373,4 +2372,3 @@ addressed."}
 ,{"resolution_description":"The Department of Environmental Protection determined that this
 complaint is a duplicate of a previously filed complaint. The original complaint is being
 addressed."}]
-https://data.cityofnewyork.us/resource/fhrw-4uyv.json?complaint_type=Noise&borough=MANHATTAN&community_board=10%20MANHATTAN&$select=reso... 37/37
