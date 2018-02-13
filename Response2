@@ -1,5 +1,4 @@
- 1/30/2018 https://data.cityofnewyork.us/resource/fhrw-4uyv.json?borough=MANHATTAN&agency=DOE&status=Closed&$where=school_number between %27001%2...
- [{"agency":"DOE","agency_name":"Central - Department of
+[{"agency":"DOE","agency_name":"Central - Department of
 Education","borough":"MANHATTAN","city":"NEW YORK","closed_date":"2010-06-
 29T11:33:39.000","community_board":"03
 MANHATTAN","complaint_type":"Safety","created_date":"2010-06-
