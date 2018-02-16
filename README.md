@@ -5,7 +5,7 @@ I have chosen the API of NYC 311 service requests, which contains all service re
 
 My queries are as following:
 
-1.URL:
+*1.URL:
 ‘’‘
 https://data.cityofnewyork.us/resource/fhrw-4uyv.json? complaint_type=Noise&borough=MANHATTAN&community_board=10 MANHATTAN&$select=resolution_description&$where=created_date between '2010-10-10T00:00:00.000' and '2012-01-01T00:00:00.000'
 ’‘’
