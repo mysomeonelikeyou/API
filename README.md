@@ -3,7 +3,7 @@
 
 I have chosen the API of NYC 311 service requests, which contains all service requests data from October, 2010 to present. The source domain is data.cityofnewyork.us with the dataset identifier fhrw-4uyv. The endpoint version is 2.1. We are allowed to make a limited number of requests of this API without an app token. But if we need more requests, we will have to sign up for an app token for each request. This API will help me to come up with a lot of stories, including complaints about noises, transportation, street, public services, etc, which will be very useful.
 
-* My queries are as following: *
+* My queries are as following: 
 
 1. URL:
 ‘’‘
@@ -20,6 +20,7 @@ I searched all the complaints about schools in Manhattan, with school number bet
 
 3. URL:
 https://data.cityofnewyork.us/resource/fhrw-4uyv.json? taxi_company_borough=MANHATTAN&agency=DOT&$where=intersection_street_1='BROAD WAY' or intersection_street_2=‘Broadway’&$select=unique_key
+
 In this query, I searched the unique key of all the complaints about taxi which the company is in Manhattan. The complaints were responded by Department of Transportation, and it happened on the street of Broadway. The responses contain only the unique key of complaints under conditions above. The unique key can uniquely identify a Service Request form in the data set. By using these unique keys, we could calculate how many complaints have been made about taxi under above conditions. And we could easily obtain one specific complaint by selecting the unique key we have gotten.
 
 # Log:
