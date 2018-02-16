@@ -3,7 +3,7 @@
 
 I have chosen the API of NYC 311 service requests, which contains all service requests data from October, 2010 to present. The source domain is data.cityofnewyork.us with the dataset identifier fhrw-4uyv. The endpoint version is 2.1. We are allowed to make a limited number of requests of this API without an app token. But if we need more requests, we will have to sign up for an app token for each request. This API will help me to come up with a lot of stories, including complaints about noises, transportation, street, public services, etc, which will be very useful.
 
-* My queries are as following:*
+* My queries are as following: *
 
 1. URL:
 ‘’‘
@@ -13,7 +13,7 @@ https://data.cityofnewyork.us/resource/fhrw-4uyv.json? complaint_type=Noise&boro
 I searched all the complaints about noise in Community Board 10 of Manhattan Borough, which created between 2010-10-10 and 2012-01-01. I only selected the resolution description column to see all the resolutions. So the response only includes the resolution description under above conditions. The resolution description describes the last action taken on the SR by the responding agency, which may also describe next or future steps. From the resolution description, we could get statistics about like how many noise complaints were not observed by the Department of Environmental Protection, how many were duplicated with previous complaints( which means that the noise was complained several times),etc. For example, we could classify the resolutions to report about the actions of the responding agency.
 
 2. URL:
-‘’‘python
+‘’‘ 
 https://data.cityofnewyork.us/resource/fhrw-4uyv.json? borough=MANHATTAN&agency=DOE&status=Closed&$where=school_number between '001' and ‘010'
 ’‘’
 I searched all the complaints about schools in Manhattan, with school number between 001 to 010, agency of DOE(Department of Education) and status is closed. The responses contain all the information of these service requests forms, including the agency information, community board, complaint types, created date and closed date, cross street about the complaint, incident street and zip, latitude and longitude, location point, the information of the school(school number, school region, and so on). We could analyze from these information and find out which school or borough has the most complaints or which type of complaints happened mostly in 311 forms.
